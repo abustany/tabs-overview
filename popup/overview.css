@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+  padding: 8px;
+}
+
+#error-message {
+  color: #880000;
+}
+
+.error-message-hidden {
+  display: none;
+}
+
+#search-bar {
+  display: flex;
+  width: 700px;
+
+  margin-bottom: 8px;
+}
+
+#search-field {
+  flex: 1 1 auto;
+}
+
+#tab-list {
+  display: grid;
+  width: 700px;
+  height: 500px;
+
+  grid-gap: 8px;
+  grid-template-columns: repeat(auto-fill, 128px);
+  grid-auto-rows: 128px;
+}
+
+.tab-list-item {
+  display: flex;
+  border: 1px solid #999;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  background-size: contain;
+  background-position: center;
+}
+
+.tab-title {
+  font-size: 10pt;
+  font-weight: bold;
+  color: #222;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.item-dimmed {
+  display: none;
+}
+
+/* vim: set et ts=2 sw=2: */
