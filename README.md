@@ -8,3 +8,22 @@ pressing the `Return` key).
 
 This extension is currently in a very rough state, improvements might come if I
 end up using it regularly enough.
+
+## Installation
+
+Use [web-ext](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Getting_started_with_web-ext)
+to generate the .zip of the extension:
+
+```
+web-ext build
+```
+
+### Firefox
+
+Go to the Add-ons page (`Ctrl-Shift-A`), click on the small gear next to the
+search field and choose "Install module from file...".
+
+### Chrome
+
+The extensions seems to be pretty broken on Chrome at the moment, I need to
+figure that out...
